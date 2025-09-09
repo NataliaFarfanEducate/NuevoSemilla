@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Semilla Azul</title>
+    <link rel="stylesheet" href="../css/main/main.css">
+</head>
+
+<body class="home-page">
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="../css/assets/logo-semilla.jpeg" alt="Logo de semilla azul">
+            <h1>SEMILLA <span class="azul">AZUL</span></h1>
+        </div>
+        <div class="user-actions">
+            <a href="iniciar-sesion.html" class="button primary">Iniciar Sesión</a>
+            <a href="crear-cuenta.html" class="button primary">Crear Cuenta</a>
+            <span class="language-select">Idioma</span>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html" aria-current="page">Inicio</a></li>
+            <li><a href="pilot-zone.html">Zona Piloto</a></li>
+            <li><a href="what-is-happening.html">¿Qué sucede hoy?</a></li>
+            <li><a href="participate.html">Participa</a></li>
+            <li><a href="reports.html">Boletines e Informes</a></li>
+            <li><a href="about-us.html">¿Quiénes Somos?</a></li>
+            <li><a href="seedgame.html">SeedGame</a></li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <section class="image-carousel-section">
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="../css/assets/Captura de pantalla 2025-08-13 214310.png"
+                            alt="Imagen 1"></div>
+                    <div class="carousel-slide"><img src="../css/assets/Captura de pantalla 2025-08-13 214513.png"
+                            alt="Imagen 2"></div>
+                    <div class="carousel-slide"><img src="../css/assets/Captura de pantalla 2025-08-13 214645.png"
+                            alt="Imagen 3"></div>
+                </div>
+                <button id="prev-btn" class="carousel-button">❮</button>
+                <button id="next-btn" class="carousel-button">❯</button>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active-indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>¿De qué trata esto?</h2>
+            <div class="info-content">
+                <div class="info-text">
+                    <p>
+                        Un sistema que permite monitorear en tiempo real la calidad del agua, usando sensores y una
+                        aplicación fácil de usar. Pensado para empoderar a las comunidades con información clara,
+                        alertas tempranas y herramientas para tomar decisiones que protejan su recurso más valioso: el
+                        agua.
+                    </p>
+                </div>
+                <div class="info-image">
+                    <img src="./css/assets/water-drop.png"
+                        alt="Dispositivo de monitoreo de agua de alta tecnología flotando en un cuerpo de agua.">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/carousel.js"></script>
+</body>
+
+</html>

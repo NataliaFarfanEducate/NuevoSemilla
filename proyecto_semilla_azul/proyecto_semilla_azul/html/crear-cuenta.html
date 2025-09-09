@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta - Semilla Azul</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="account-page">
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="../css/assets/logo-semilla.jpeg" alt="Semilla Azul Logo">
+            <h1>SEMILLA <span class="azul">AZUL</span></h1>
+        </div>
+        <div class="user-actions">
+            <span class="language-select">Idioma</span>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pilot-zone.html">Zona Piloto</a></li>
+            <li><a href="what-is-happening.html">¿Qué sucede hoy?</a></li>
+            <li><a href="participate.html">Participa</a></li>
+            <li><a href="reports.html">Boletines e Informes</a></li>
+            <li><a href="about-us.html">¿Quiénes Somos?</a></li>
+            <li><a href="seedgame.html">SeedGame</a></li>
+        </ul>
+    </nav>
+    <main class="main-content signup-page">
+        <div class="form-container">
+            <h2 class="form-title">Crear Cuenta</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="full-name">Ingresa tu Usuario *</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="(Nombre completo)" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Ingresa tu Correo *</label>
+                    <input type="email" id="email" name="email" placeholder="(ejemplo@gmail.com)" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Crea tu Contraseña *</label>
+                    <input type="password" id="password" name="password" placeholder="(Ingresa por lo menos 8 caracteres)" required>
+                </div>
+                <div class="form-group">
+                    <label for="role">Ingresa tu Rol *</label>
+                    <select id="role" name="role" required>
+                        <option value="" disabled selected>Selecciona tu Rol</option>
+                        <option value="ciudadano">Ciudadano</option>
+                        <option value="investigador">Investigador</option>
+                        <option value="administrador">Administrador</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Ingresa tu Ubicación *</label>
+                    <div class="location-input">
+                        <input type="text" id="location" name="location" required>
+                        <span class="location-icon">📍</span>
+                    </div>
+                </div>
+                <button type="submit" class="form-button">Crear Cuenta</button>
+            </form>
+            <p class="form-link">¿Ya tienes una cuenta? <a href="login.html">Iniciar sesión</a></p>
+        </div>
+    </main>
+</body>
+</html>

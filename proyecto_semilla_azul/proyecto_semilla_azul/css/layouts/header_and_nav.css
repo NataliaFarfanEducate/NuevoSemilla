@@ -1,0 +1,83 @@
+/* Estilos del encabezado y navegación */
+.main-header {
+    background-color: var(--color-light);
+    color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-container img {
+    height: 50px;
+    width: auto;
+}
+
+.logo-container h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.logo-container .azul {
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-actions .language-select {
+    color: var(--color-light);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-nav li a {
+    color: var(--color-secondary);
+    padding: 10px 20px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main-nav li a:hover,
+.main-nav li a[aria-current="page"] {
+    color: var(--color-secondary);
+    transform: translateY(-2px);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-actions {
+        margin-top: 10px;
+    }
+}

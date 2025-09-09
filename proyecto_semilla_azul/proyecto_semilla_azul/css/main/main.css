@@ -1,0 +1,15 @@
+
+@import url('../base/variables.css');
+@import url('../base/base.css');
+@import url('../layouts/header_and_nav.css');
+@import url('../components/header.button.css');
+@import url('../components/forms.css');
+
+@import url('../pages/inicio.css');
+@import url('../pages/boletines.css');
+@import url('../pages/que-sucede.css');
+@import url('../pages/quienes-somos.css');
+@import url('../pages/seedgame.css');
+@import url('../pages/zona-piloto.css');
+@import url('../pages/participa.css');
+@import url('../pages/login.css');

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body.login-page , body.pilot-zone-page, body.about-us-page, body.account-page, body.home-page, 
+body.participate-page, body.reports-page, body.seedgame-page, body.what-is-happening-page{
+  background: url('../assets/fondo_azul_marypiedra.jpeg') no-repeat center center fixed;
+
+}
+
+body {
+    font-family: var(--font-family-serif);
+    background-color: var(--color-primary);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: var(--color-light);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+.main-content {
+    padding: 20px;
+    min-height: 100vh;
+}
